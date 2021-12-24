@@ -1,0 +1,65 @@
+.ques_body{
+    flex: 0.95;
+    flex-direction: column;
+    margin-left: 0.7rem;
+}
+
+.question{
+    
+    border: 0.8px solid;
+    border-color: blue;
+   
+    border-radius: 5px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+   /* margin-top: 10rem;*/
+}
+
+.optionA, 
+.optionB,
+.optionC,
+.optionD{
+    box-shadow: 1px 4px 5px rgb(230, 226, 226);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.optionA.active {
+    background-color: rgb(153, 197, 153);
+}
+.optionB.active {
+    background-color: rgb(153, 197, 153);
+}
+.optionC.active {
+    background-color: rgb(153, 197, 153);
+}
+.optionD.active {
+    background-color: rgb(153, 197, 153);
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.actions button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px rgb(230, 226, 226);
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+}
+
+.actions button.disabled{
+    color: gray;
+    cursor: not-allowed;
+}
+
+.actions button:hover{
+   transform: scale(1.2);
+   transition: 0.4s;
+}

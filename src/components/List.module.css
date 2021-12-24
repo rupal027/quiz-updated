@@ -1,0 +1,15 @@
+.body{
+    flex: 0.3;
+    box-shadow: 1px 4px 5px rgb(230, 226, 226), -.2em 0 .4em rgb(230, 226, 226);
+    height: 84vh;
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    border-radius: 7px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+}
